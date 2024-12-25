@@ -81,11 +81,42 @@ export const people: Person[] =  [
     reward: "$10",
   },
   {
-    id: "sarah",
-    name: "Sarah",
-    message: "Dear Sarah, we thank you for all you do, for being the perfect wife for our brother, and the perfect mother to our niece",
-    reward: "$50",
+    id: "maggie",
+    name: "Maggie",
+    message: "Thank you for being really really awesome and for your positive influence. Being friends with you has been an awesome ride and I’m glad we got to spend quality time together. You’re awesome through and throughout. Have a wonderful Christmas and here’s a little gift something",
+    reward: "₦10,000",
   },
+  {
+    id: "itohan-x",
+    name: "Itohan",
+    message: "Somehow, I got to talk to you and there was something about you that made us connect like we were two sides of a coin. I’m glad we got to spend time together, we got to know eachother, we got to make memories. Looking forward to more memories. Here’s a little custom gift box I put together",
+    reward: "₦10,000",
+  },  {
+    id: "ekn",
+    name: "Ekene",
+    message: "Gee. What a ride 2024 was. With the plenty ups, downs and middles. We saw it till the end. Merry Christmas my guy. More big wins. Decided to do my own version of gift box",
+    reward: "₦10,000",
+  },  {
+    id: "cha-c",
+    name: "Charity",
+    message: "Chaaa… my personal person. Thank you for being instrumental to my 2024. In this season of celebration I’m personally appreciating you for your endless support. I love you big time",
+    reward: "₦10,000",
+  },  {
+    id: "maro-a",
+    name: "Maro",
+    message: "We’ve had many ups and downs but in all, I respect you and hold you in very high esteem. Thank you for being a major part of my 2024 and for turning up for me. Here’s my santa customized gift box",
+    reward: "₦10,000",
+  }, {
+  id: "df",
+  name: "DivineFavour",
+  message: "My guyyy… I don’t say this very often but I really appreciate you. For always turning up when I need help, I respect and hold you in high regard. Thank you for being awesome and selfless. In this season of appreciation, I decided to do a Marv Special and gift my friends a gift box. So here’s yours ",
+  reward: "₦10,000",
+}, {
+  id: "gracious",
+  name: "Gracious",
+  message: "I know we haven't been at our best, but I'm appreciating some special peope that made 2024 awesome for me and you're on that list. Thank you for being you and being awesome. I don't take you for granted and I'm always going to be glad we got to spend the time we spent together. So, here's a little wrapped giftbox just for you",
+  reward: "₦10,000",
+},
 ];
 
 
