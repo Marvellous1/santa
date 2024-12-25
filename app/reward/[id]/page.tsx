@@ -10,8 +10,10 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function RewardPage({ params }: PageProps) {
-  const person = people.find( async(p) => p.id === (await params).id);
+export default async function RewardPage({ params }: PageProps) {
+  const id = (await params).id
+  const person = people.find((p) => p.id === id);
+  console.log(people, (await params).id, person)
   
   if (!person) {
     notFound();
