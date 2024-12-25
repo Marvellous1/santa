@@ -74,6 +74,18 @@ export const people: Person[] =  [
     message: "Blu blah bah bah cu cu ca.",
     reward: "₦5,000",
   },
+  {
+    id: "aurora",
+    name: "Aurora",
+    message: "Beautiful aurora, we love you, keep radiating",
+    reward: "$10",
+  },
+  {
+    id: "sarah",
+    name: "Sarah",
+    message: "Dear Sarah, we thank you for all you do, for being the perfect wife for our brother, and the perfect mother to our niece",
+    reward: "$50",
+  },
 ];
 
 
