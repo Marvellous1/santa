@@ -7,7 +7,7 @@ import { saveClaimedReward, isRewardClaimed } from "@/lib/storage";
 import { useState, useEffect } from "react";
 
 interface RewardCardProps {
-  reward: number;
+  reward: string;
   personId: string;
 }
 
@@ -33,10 +33,10 @@ export function RewardCard({ reward, personId }: RewardCardProps) {
       animate={{ scale: 1, rotate: 0 }}
       className="bg-green-600 text-center text-white p-8 rounded-lg shadow-lg"
     >
-      <h2 className="text-3xl font-bold mb-2">Congratulations! 🎉</h2>
+      <h2 className="text-3xl font-bold mb-2">Here's your gift!</h2>
       <p className="text-xl">You've received</p>
-      <p className="text-6xl font-bold my-4">${reward}</p>
-      <p className="text-lg mb-6">Enjoy your gift! 🎁</p>
+      <p className="text-6xl font-bold my-4">{reward}</p>
+      <p className="text-lg mb-6">Thank you! 🎁</p>
       
     </motion.div>
   );
